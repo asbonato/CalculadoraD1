@@ -1,6 +1,6 @@
-package br.saojudas.sdm21_1.calculadorad1.presenter;
+package br.saojudas.sdm21_1.calculadorad1.viewmodel;
 
-public interface Presenter {
+public interface ViewModel {
     void onCreate();
     void onStart();
     void onRestart();
@@ -8,4 +8,6 @@ public interface Presenter {
     void onStop();
     void onResume();
     void onDestroy();
+
+
 }
